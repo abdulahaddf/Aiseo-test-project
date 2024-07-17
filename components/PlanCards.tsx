@@ -1,5 +1,5 @@
-import ToggleBtn from './shared/ToggleBtn';
 import Card from './shared/Card';
+import ToggleBtn from './shared/ToggleBtn';
 export default function PlanCard() {
     const data = [
         {
