@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Nav() {
   return (
-    <section className='text-base flex justify-between'>
+    <section className='text-base flex justify-between px-2 md:px-24'>
       <div>
         <div className='flex gap-2'>
         <Image

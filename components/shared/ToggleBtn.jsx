@@ -17,7 +17,7 @@ const ToggleBtn = () => {
       }`}
     >
       <div
-        className={`bg-white w-6 h-6 rounded-full shadow-md transform transition-transform ${
+        className={`bg-white-600 w-6 h-6 rounded-full shadow-md transform transition-transform ${
           isOn ? 'translate-x-6' : 'translate-x-0'
         }`}
       ></div>

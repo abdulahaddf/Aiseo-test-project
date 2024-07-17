@@ -12,6 +12,10 @@ module.exports = {
           'dark': '#0F172A',
           'primary': '#7E4BFA',
           'secondary': '#4ADE80',
+          white: {
+            500: "#E2E8F0",
+            600: "#F1F5F9",
+          },
           
         },
           container: {

@@ -5,9 +5,9 @@
 
 @layer components {
     .card {
-        @apply w-[538px] h-[350px] bg-[#182130] border-2 border-[#475569] rounded-md
+        @apply md:w-[538px] h-[350px] bg-[#182130] border-2 border-[#475569] rounded-md;
     }
  .btn {
-    @apply bg-primary border border-white rounded-[4px]
+    @apply bg-primary hover:bg-white-600 duration-200 hover:text-primary border border-[#C2A8FF] hover:border-primary rounded-[4px] mt-8 md:mt-0 
  }
 }
