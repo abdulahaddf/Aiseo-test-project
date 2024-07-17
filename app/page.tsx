@@ -1,4 +1,5 @@
 import AccountDetails from "@/components/AccountDetails";
+import BillingHistory from "@/components/BillingHistory";
 import Nav from "@/components/Nav";
 import Image from "next/image";
 
@@ -8,7 +9,7 @@ export default function Home() {
      <Nav/>
      <div>
       <AccountDetails/>
-      
+      <BillingHistory/>
      </div>
     </main>
   );
