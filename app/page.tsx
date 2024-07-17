@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="min-h-screen px-10 py-5 text-white bg-dark">
      <Nav/>
-     <div>
+     <div className="px-20">
       <AccountDetails/>
       <BillingHistory/>
      </div>
