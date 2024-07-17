@@ -1,6 +1,7 @@
 import AccountDetails from "@/components/AccountDetails";
 import BillingHistory from "@/components/BillingHistory";
 import Nav from "@/components/Nav";
+import PlanCard from "@/components/PlanCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
      <div className="px-20">
       <AccountDetails/>
       <BillingHistory/>
+      <PlanCard/>
      </div>
     </main>
   );
